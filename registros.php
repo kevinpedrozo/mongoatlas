@@ -1,7 +1,9 @@
-```php id="t1q9vm"
+```php id="b4z8cw"
 <?php
 
 require 'vendor/autoload.php';
+
+date_default_timezone_set('America/Bogota');
 
 $cliente = new MongoDB\Client("mongodb+srv://kevin:JmODk3ZN2zDbgHHY@cluster0.oowbmus.mongodb.net/?appName=Cluster0");
 
@@ -9,10 +11,11 @@ $db = $cliente->prueba;
 
 $coleccion = $db->gustos;
 
-$datos = iterator_to_array($coleccion->find());
+$datos = $coleccion->find();
 
 ?>
 ```
+
 
 
 <!DOCTYPE html>
