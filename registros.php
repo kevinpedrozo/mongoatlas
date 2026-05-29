@@ -1,4 +1,4 @@
-```php id="n7v4xp"
+```php id="t1q9vm"
 <?php
 
 require 'vendor/autoload.php';
@@ -9,9 +9,11 @@ $db = $cliente->prueba;
 
 $coleccion = $db->gustos;
 
-$datos = $coleccion->find();
+$datos = iterator_to_array($coleccion->find());
 
 ?>
+```
+
 
 <!DOCTYPE html>
 <html lang="es">
