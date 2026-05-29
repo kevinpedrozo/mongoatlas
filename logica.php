@@ -1,4 +1,3 @@
-```php id="k9w3mf"
 <?php
 
 date_default_timezone_set('America/Bogota');
@@ -95,4 +94,4 @@ $resultado = $coleccion->insertOne([
 
 </body>
 </html>
-```
+
