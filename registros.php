@@ -1,4 +1,3 @@
-```php id="b4z8cw"
 <?php
 
 require 'vendor/autoload.php';
